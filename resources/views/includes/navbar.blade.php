@@ -2,7 +2,7 @@
     <div class="container">
         <nav class="row navbar navbar-expand-lg navbar-light bg-white">
             <a href="{{ route('home')}}" class="navbar-brand">
-                <img src="{{ url('frontend/images/logo.png')}}" alt="logo NOMADS" />
+                <img src="{{ url('frontend/images/Eloquent.png')}}" alt="logo Eloquent" />
             </a>
             <button class="navbar-toggler navbar-togller-right"
             type="button"
@@ -16,7 +16,7 @@
                     <li class="nav-item mx-md-2">
                         <a href="" class="nav-link active">Home</a></li>
                     <li class="nav-item mx-md-2">
-                        <a href="" class="nav-link">Paket Travel</a></li>
+                        <a href="" class="nav-link">Travel Package</a></li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Services</a>
                             <div class="dropdown-menu">

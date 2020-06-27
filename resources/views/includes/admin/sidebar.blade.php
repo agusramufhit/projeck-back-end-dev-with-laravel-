@@ -5,7 +5,7 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('dashboard') }}">
         <div class="sidebar-brand-text mx-3">
-            NOMADS ADMIN
+            Eloquent ADMIN
         </div>
       </a>
 

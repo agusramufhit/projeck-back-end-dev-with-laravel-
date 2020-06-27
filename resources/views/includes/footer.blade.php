@@ -32,10 +32,10 @@
                         <div class="col-12 col-lg-3">
                             <h5>GET CONNECTED</h5>
                             <ul class="list-unstyled">
-                                <li><a href="#"></a>Jakarta Selatan</li>
+                                <li><a href="#"></a>Tanjungpinang</li>
                                 <li><a href="#"></a>Indonesia</li>
                                 <li><a href="#"></a>0821 XXX XXX</li>
-                                <li><a href="#"></a>Support@nomads.id</li>
+                                <li><a href="#"></a>Support@eloquent</li>
                             </ul>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
             <div class="row border-top 
             justify-content-center align-items-center pt-4">
                 <div class="col-auto text-gray-500 font-weight-light">
-                    2019 Copyright Nomads • All rights reserved • Made in Jakarta
+                    2019 Copyright Eloquent • All rights reserved • Made in Tanjungpinang
                 </div>
             </div>
         </div>

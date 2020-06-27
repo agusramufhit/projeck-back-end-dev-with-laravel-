@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Str;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\TransactionRequest;
 use App\Transaction;
+use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class TransactionController extends Controller
 {
@@ -20,9 +20,9 @@ class TransactionController extends Controller
             'details', 'travel_package', 'user'
         ])->get();
 
-        return view('pages.admin.transaction.index', [
+         return view('pages.admin.transaction.index', [
             'items' => $items
-        ]);
+         ]);
     }
 
     /**
@@ -63,7 +63,7 @@ class TransactionController extends Controller
         ])->findOrFail($id);
 
         return view('pages.admin.transaction.detail', [
-            'item' => $item
+             'item' => $item
         ]);
     }
 
@@ -89,7 +89,7 @@ class TransactionController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(TransactionController $request, $id)
+    public function update(TransactionRequest $request, $id)
     {
         $data = $request->all();
         $data ['slug'] = Str::slug($request->title);
